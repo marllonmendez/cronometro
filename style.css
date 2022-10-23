@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  background-color: rgb(98, 88, 121);
+  color: white;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.main, .my-git {
+  width: 800px auto;
+  margin: 30px auto;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+h1, p {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+
+#seconds, #tens {
+  font-size: 2em;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+button {
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -khtml-border-radius: 50px;
+  border-radius: 50px;
+  background: rgb(98, 88, 121);
+  color: white;
+  border: solid 1px white;
+  text-decoration: none;
+  cursor:pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+button:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background: white;
+  border: solid 1px white;
+  color: rgb(98, 88, 121);
+}
